@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    display: flex;
+    background-color: orange;
+    font-size: 1.4rem;
+    padding-left: 8rem;
+}
+ul {
+    display: flex;
+}
+li {
+    margin: 0 1rem;
+    list-style: none;
+}
+img {
+    float: right;
+    width: 30%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: green;
+}
+footer {
+    background-color: blueviolet;
+    margin-top: auto;
+    padding-left: 8rem;
+}
